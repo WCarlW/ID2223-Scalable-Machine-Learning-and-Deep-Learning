@@ -1,4 +1,4 @@
-#Lab 1 Serverless System
+# Lab 1 Serverless System
 In Lab 1, we get familiar with building a feature pipeline, a training pipeline, and an inference 
 pipeline with Modal, Hugging Face, and Hopsworks. 
 
@@ -11,10 +11,7 @@ Titanic dataset.
 With those training models, we create an interactive UI that make predictions based on user inputs. We 
 also created a dashboard UI to display a prediction with randomly generated inputs. 
 
-##GitHub Repo
-https://github.com/WCarlW/ID2223-Scalable-Machine-Learning-and-Deep-Learning
-
-##Hugging Face Spaces
+## Hugging Face Spaces
 Titanic Interactive UI: https://huggingface.co/spaces/WCarlW/Titanic
 
 Titanic Dashboard UI: https://huggingface.co/spaces/WCarlW/Titanic_Monitor
