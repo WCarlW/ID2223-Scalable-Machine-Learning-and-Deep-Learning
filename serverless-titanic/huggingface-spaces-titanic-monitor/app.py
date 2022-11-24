@@ -7,8 +7,8 @@ fs = project.get_feature_store()
 
 dataset_api = project.get_dataset_api()
 
-dataset_api.download("Resources/images/latest_iris.png")
-dataset_api.download("Resources/images/actual_iris.png")
+dataset_api.download("Resources/images/latest_titanic.png")
+dataset_api.download("Resources/images/actual_titanic.png")
 dataset_api.download("Resources/images/df_recent.png")
 dataset_api.download("Resources/images/confusion_matrix.png")
 
@@ -16,10 +16,10 @@ with gr.Blocks() as demo:
     with gr.Row():
       with gr.Column():
           gr.Label("Today's Predicted Image")
-          input_img = gr.Image("latest_iris.png", elem_id="predicted-img")
+          input_img = gr.Image("latest_titanic.png", elem_id="predicted-img")
       with gr.Column():          
           gr.Label("Today's Actual Image")
-          input_img = gr.Image("actual_iris.png", elem_id="actual-img")        
+          input_img = gr.Image("actual_titanic.png", elem_id="actual-img")        
     with gr.Row():
       with gr.Column():
           gr.Label("Recent Prediction History")

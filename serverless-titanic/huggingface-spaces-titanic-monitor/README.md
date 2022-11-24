@@ -1,7 +1,7 @@
 ---
-title: Iris Monitoring
+title: Titanic Monitoring
 emoji: 💻
-colorFrom: blue
+colorFrom: orange
 colorTo: pink
 sdk: gradio
 sdk_version: 3.8.2

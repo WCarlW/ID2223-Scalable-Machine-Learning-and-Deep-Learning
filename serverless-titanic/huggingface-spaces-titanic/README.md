@@ -1,8 +1,8 @@
 ---
-title: Iris
+title: Titanic
 emoji: 🐢
-colorFrom: purple
-colorTo: green
+colorFrom: blue
+colorTo: red
 sdk: gradio
 sdk_version: 3.5
 app_file: app.py
