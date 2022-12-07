@@ -1,0 +1,3 @@
+# Lab2 Swedish Text Transcription using Transformers
+
+The goal of this assignment is to fine-tune a pre-trained transformer model, Whisper, to transcribe Swedish language audio (or audio your mother tongue) to text. You should provide a user interface to allow users to use your model, providing some useful or entertaining service. You should also explain how to improve the performance of your model with either model-centric improvements or data centric improvements.
