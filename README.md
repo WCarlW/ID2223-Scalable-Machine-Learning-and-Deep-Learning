@@ -2,3 +2,5 @@
 ID2223 Scalable Machine Learning and Deep Learning course labs at KTH
 
 ## Lab1 Iris and Titanic Model
+
+## Lab2 Swedish Text Transcription using Transformers
